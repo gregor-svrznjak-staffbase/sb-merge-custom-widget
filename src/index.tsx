@@ -76,13 +76,13 @@ const factory: BlockFactory = (BaseBlockClass, _widgetApi) => {
  * The definition of the block, to let it successful register to the hosting application
  */
 const blockDefinition: BlockDefinition = {
-    name: "mylatestpayslip",
+    name: "my-latest-payslip",
     factory: factory,
     attributes: widgetAttributes,
     blockLevel: 'block',
     configurationSchema: configurationSchema,
     uiSchema: uiSchema,
-    label: 'Mylatestpayslip',
+    label: 'My Latest Payslip',
     iconUrl: icon
 };
 
